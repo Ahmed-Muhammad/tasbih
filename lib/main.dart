@@ -16,7 +16,15 @@ class tasbih extends StatelessWidget {
           title: const Text('Tasbih'),
           centerTitle: true,
         ),
-        body: const Center(child: Text('بسم الله الرحمن الرحيم')),
+        body: Center(
+          child: Container(
+            height: 50,
+            width: 50,
+            decoration: const BoxDecoration(
+              color: Colors.red
+            ),
+          ),
+        )
       ),
     );
   }
